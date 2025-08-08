@@ -1,3 +1,5 @@
+import ManageData from "./components/ManageData";
+import 
 function App() {
   return (
     <div className="App">
@@ -9,13 +11,11 @@ function App() {
           width="300"
         />
 
-        
       </div>
       
-      
-      
-
+    <ManageData/>
     </div>
+    
   );
 }
 
